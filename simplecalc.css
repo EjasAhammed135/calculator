@@ -1,0 +1,32 @@
+.outer{
+	border: 2px solid black;
+	height: 360px;
+	width: 350px;
+	background-color: beige;
+	margin: auto;
+	border-radius: 5px;
+}
+.screen input{
+	width: 342px;
+	height: 70px;
+	margin: auto;
+	border-radius: 5px;
+	font-size: 22px;
+	background-color: lawngreen;
+}
+.flex-container{
+	flex-direction: column;
+}
+.row1{
+	display: flex;
+
+}
+.r input{
+	width: 81px;
+	height: 50px;
+	border-radius: 20px;
+	font-size: 20px;
+	margin: 3px;
+	background-color: black;
+	color: whitesmoke;
+}

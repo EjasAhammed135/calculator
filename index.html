@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>calculator</title>
+	<link rel="stylesheet" type="text/css" href="simplecalc.css">
+</head>
+<body>
+		<div class="outer">
+			<!-- Display -->
+			<div class="screen">
+				<input type="text" id="result">
+				
+			</div>
+			<!-- dispaly end -->
+			<!-- button -->
+			<div class="flex-container">
+				<div class="row1">
+					<div class="r"><input type="button" onclick="clearscreen('CE')" value="CE"></div>
+					<div class="r"><input type="button" onclick="clearscreen('C')" value="C"></div>
+					<div class="r"><input type="button" onclick="display('%')" value="%"></div>
+					<div class="r"><input type="button" onclick="display('/')" value="/"></div>
+
+				</div>
+				<div class="row1">
+					<div class="r"><input type="button" onclick="display('7')" value="7"></div>
+					<div class="r"><input type="button" onclick="display('8')" value="8"></div>
+					<div class="r"><input type="button" onclick="display('9')" value="9"></div>
+					<div class="r"><input type="button" onclick="display('*')" value="*"></div>
+
+				</div>
+				<div class="row1">
+					<div class="r"><input type="button" onclick="display('4')" value="4"></div>
+					<div class="r"><input type="button" onclick="display('5')" value="5"></div>
+					<div class="r"><input type="button" onclick="display('6')" value="6"></div>
+					<div class="r"><input type="button" onclick="display('-')" value="-"></div>
+
+				</div>
+				<div class="row1">
+					<div class="r"><input type="button" onclick="display('3')" value="3"></div>
+					<div class="r"><input type="button" onclick="display('2')" value="2"></div>
+					<div class="r"><input type="button" onclick="display('1')" value="1"></div>
+					<div class="r"><input type="button" onclick="display('+')" value="+"></div>
+
+				</div>
+				<div class="row1">
+					<div class="r"><input type="button" onclick="display('00')" value="00"></div>
+					<div class="r"><input type="button" onclick="display('0')" value="0"></div>
+					<div class="r"><input type="button" onclick="display('.')" value="."></div>
+					<div class="r"><input type="button" onclick="equals('=')" value="="></div>
+
+				</div>
+
+				
+			</div>
+
+		</div>
+		<script type="text/javascript" src="simplecalc.js"></script>
+		
+
+</body>
+</html>
